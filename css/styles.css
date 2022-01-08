@@ -1,0 +1,161 @@
+/*color*/
+:root{
+    --general-text-color: #757575;
+    --title-text-color: #212121;
+    --contact-color: #FFFFFF;
+    --web-color: #2196F3;
+    --backgraund-color-general: #E5E5E5;
+    --second-backgraund-color: #F5F4FA;
+    --footer-color: #2F303A;
+
+}
+
+body
+{
+    font-family: Roboto;
+    color: var(--general-text-color);
+    background-color: var(--backgraund-color-general);
+}
+/*index-html*/
+/*шапка*/
+.header{
+    background-color: #FFFFFF;
+}
+.logo {
+    font-family: Ralewey;
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--title-text-color);
+}
+.web {
+    color: var(--web-color);
+}
+.site-nav {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.site-nav:hover {
+    color: var(--web-color);
+}
+.site-nav:focus {
+    color: var(--web-color);
+}
+.contact {
+    color: var(--general-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.contact:hover {
+    color: var(--web-color);
+}
+.contact:focus {
+    color: var(--web-color);
+}
+/*main*/
+/*Заказать услугу*/
+.order-section {
+    background-color: #2F303A;
+}
+.order-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+}
+.button-order {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+}
+/*секция с преимуществами*/
+.advantage h3{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--title-text-color);
+}
+.advantage p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/*секция чем мы занимаемся*/
+.description{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+/*секция наша команда*/
+.our-team{
+    background-color: var(--second-backgraund-color);
+}
+.our-team-description{
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+.our-team li{
+    background-color: #FFFFFF;
+}
+.our-team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+.our-team p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+}
+/*подвал*/
+.footer{
+    background-color: var(--footer-color);
+    color: #FFFFFF;
+}
+.logo-footer{
+    font-family: Ralewey;
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--contact-color);
+}
+.address{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
+.footer-contact{
+    color: rgba(255, 255, 255, 0.6);
+}
+/*portfolio-html*/
+/*меню портфолио*/
+.button-portfolio{
+    background-color: var(--second-backgraund-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+.button-portfolio:hover{
+    background-color: var(--web-color);
+    color: var(--contact-color);
+}
+/*опции(список) портфолио*/
+.portfolio-list h3{
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+.portfolio-list p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+}
