@@ -7,14 +7,14 @@
     --backgraund-color-general: #E5E5E5;
     --second-backgraund-color: #F5F4FA;
     --footer-color: #2F303A;
-
 }
 
 body
 {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: var(--general-text-color);
     background-color: var(--backgraund-color-general);
+    letter-spacing: 0.03em;
 }
 /*index-html*/
 /*шапка*/
@@ -22,10 +22,11 @@ body
     background-color: #FFFFFF;
 }
 .logo {
-    font-family: Ralewey;
+    font-family: Ralewey, sans-serif;
     font-weight: bold;
     font-size: 26px;
     color: var(--title-text-color);
+    line-height: 1.2;
 }
 .web {
     color: var(--web-color);
@@ -34,6 +35,8 @@ body
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav:hover {
     color: var(--web-color);
@@ -41,10 +44,14 @@ body
 .site-nav:focus {
     color: var(--web-color);
 }
+.site-nav.current{
+    color: var(--web-color);
+}
 .contact {
     color: var(--general-text-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 .contact:hover {
     color: var(--web-color);
@@ -61,33 +68,36 @@ body
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 .button-order {
     background-color: #2196F3;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.88;
     cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 0.06em;
 }
 /*секция с преимуществами*/
 .advantage h3{
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     color: var(--title-text-color);
 }
 .advantage p{
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
 }
 /*секция чем мы занимаемся*/
 .description{
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
     color: var(--title-text-color);
 }
 /*секция наша команда*/
@@ -105,13 +115,13 @@ body
 .our-team h3{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.16;
     color: var(--title-text-color);
 }
 .our-team p{
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
 }
 /*подвал*/
 .footer{
@@ -119,15 +129,16 @@ body
     color: #FFFFFF;
 }
 .logo-footer{
-    font-family: Ralewey;
+    font-family: Ralewey, sans-serif;
     font-weight: bold;
     font-size: 26px;
+    line-height: 1.19;
     color: var(--contact-color);
 }
 .address{
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     font-style: normal;
 }
 .footer-contact{
@@ -135,13 +146,17 @@ body
 }
 /*portfolio-html*/
 /*меню портфолио*/
+.portfolio-list{
+    background-color: var(--contact-color);
+}
 .button-portfolio{
     background-color: var(--second-backgraund-color);
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.63;
     cursor: pointer;
+    font-family: inherit;
 }
 .button-portfolio:hover{
     background-color: var(--web-color);
@@ -153,9 +168,10 @@ body
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .portfolio-list p{
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.88;
 }
