@@ -2,9 +2,8 @@
 :root{
     --general-text-color: #757575;
     --title-text-color: #212121;
-    --contact-color: #FFFFFF;
     --web-color: #2196F3;
-    --backgraund-color-general: #E5E5E5;
+    --backgraund-color-general: #FFFFFF;
     --second-backgraund-color: #F5F4FA;
     --footer-color: #2F303A;
 }
@@ -15,14 +14,18 @@ body
     color: var(--general-text-color);
     background-color: var(--backgraund-color-general);
     letter-spacing: 0.03em;
+    
+    }
+    ul{
+        list-style: none;
 }
 /*index-html*/
 /*шапка*/
 .header{
-    background-color: #FFFFFF;
+    
 }
 .logo {
-    font-family: Ralewey, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     color: var(--title-text-color);
@@ -84,6 +87,12 @@ body
     font-family: inherit;
     letter-spacing: 0.06em;
 }
+.button-order:hover{
+    background-color: #188CE8;
+}
+.button-order:focus{
+    background-color: #188CE8;
+}
 /*секция с преимуществами*/
 .advantage h3{
     font-weight: bold;
@@ -113,7 +122,7 @@ body
     color: var(--title-text-color);
 }
 .our-team li{
-    background-color: #FFFFFF;
+    background-color: var(--backgraund-color-general);
 }
 .our-team h3{
     font-weight: 500;
@@ -132,11 +141,11 @@ body
     color: #FFFFFF;
 }
 .logo-footer{
-    font-family: Ralewey, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--contact-color);
+    color: #FFFFFF;
     text-decoration:none
 }
 .address{
@@ -165,7 +174,7 @@ body
 }
 .button-portfolio:hover{
     background-color: var(--web-color);
-    color: var(--contact-color);
+    color: var(--backgraund-color-general);
 }
 /*опции(список) портфолио*/
 .portfolio-list h3{
